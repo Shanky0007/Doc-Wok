@@ -7,6 +7,7 @@ import mongoose from 'mongoose';
 import express from 'express';
 import cors from 'cors';
 import authRoutes from '../routes/auth.route.js';
+import healthRouters from '../routes/health.route.js';
 
 
 const app = express();
@@ -23,6 +24,7 @@ mongoose.connect(process.env.MONGO_DB_URI)
 
 //routes
 app.use("/api/auth", authRoutes);
+app.use("/api/health", healthRouters);
 
 app.get('/', (req, res) => {
     res.json({ message: 'API is running!' });
