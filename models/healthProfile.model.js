@@ -5,7 +5,7 @@ const healthProfileSchema = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: "User",
         required: true,
-        unique: true // One profile per user
+        unique: true 
     },
     personalInfo:{
         age: { type: Number, required: true, min: 0, max: 150 },

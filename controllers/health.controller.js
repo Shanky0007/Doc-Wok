@@ -6,7 +6,7 @@ dotenv.config();
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
-// CREATE - Create new health profile
+//Create new health profile
 export const createHealthProfile = async (req, res) => {
   try {
     // Check if user already has a health profile
@@ -33,7 +33,7 @@ export const createHealthProfile = async (req, res) => {
   }
 };
 
-// READ - Get user's health profile
+//Get user's health profile
 export const getHealthProfile = async (req, res) => {
   try {
     const healthProfile = await HealthProfile.findOne({ userId: req.user.id });
@@ -53,7 +53,7 @@ export const getHealthProfile = async (req, res) => {
   }
 };
 
-// UPDATE - Update user's health profile
+//Update user's health profile
 export const updateHealthProfile = async (req, res) => {
   try {
     const healthProfile = await HealthProfile.findOneAndUpdate(
@@ -83,7 +83,7 @@ export const updateHealthProfile = async (req, res) => {
   }
 };
 
-// ANALYZE - AI health analysis using Gemini
+//AI health analysis using Gemini
 export const analyzeHealth = async (req, res) => {
   try {
     const { symptoms, healthData } = req.body;
@@ -118,7 +118,7 @@ export const analyzeHealth = async (req, res) => {
     const response = await result.response;
     const analysis = response.text();
     
-    // Log the analysis for the user (optional)
+    // Log the analysis for the user
     if (userProfile) {
       userProfile.currentSymptoms.push({
         symptom: symptoms,
@@ -144,7 +144,7 @@ export const analyzeHealth = async (req, res) => {
   }
 };
 
-// SYMPTOM CHECKER - Quick symptom analysis
+//Quick symptom analysis
 export const checkSymptoms = async (req, res) => {
   try {
     const { symptoms, duration, severity, additionalInfo } = req.body;
