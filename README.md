@@ -167,10 +167,10 @@ Authorization: Bearer <jwt_token>
    - `access_token`: (auto-populated after login)
 
 ### Test Scenarios
-- ✅ User registration and authentication
-- ✅ Health profile CRUD operations
-- ✅ AI-powered symptom analysis
-- ✅ Health insights generation
+- User registration and authentication
+- Health profile CRUD operations
+- AI-powered symptom analysis
+- Health insights generation
 
 ## 🔒 Security Features
 
