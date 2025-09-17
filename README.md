@@ -1,4 +1,4 @@
-# 🏥 Doc-Wok - AI-Powered Health Insights Platform
+# Doc-Wok - AI-Powered Health Insights Platform
 
 > **Empowering individuals with AI-driven health insights and personalized medical guidance**
 
@@ -6,7 +6,7 @@ Doc-Wok is an intelligent health platform that leverages Google's Gemini AI to p
 
 ## 🚀 Features
 
-### ✅ **Current Features (v1.0)**
+### **Current Features (v1.0)**
 - **User Authentication**: Secure registration, login with JWT tokens
 - **Health Profile Management**: Comprehensive health data storage
 - **AI Health Analysis**: Gemini AI-powered health insights and recommendations
@@ -14,7 +14,7 @@ Doc-Wok is an intelligent health platform that leverages Google's Gemini AI to p
 - **Medical History Tracking**: Conditions, medications, allergies, family history
 - **Vital Signs Monitoring**: Blood pressure, heart rate, temperature tracking
 
-### 🔄 **Coming Soon**
+### **Coming Soon**
 - **React Frontend Dashboard**
 - **Health Goal Tracking**
 - **Medication Reminders**
@@ -180,7 +180,7 @@ Authorization: Bearer <jwt_token>
 - **CORS Protection**: Cross-origin request handling
 - **Environment Variables**: Sensitive data protection
 
-## 🏗️ Database Schema
+## Database Schema
 
 ### User Model
 ```javascript
@@ -223,29 +223,29 @@ Authorization: Bearer <jwt_token>
 }
 ```
 
-## 🚧 Roadmap
+## Roadmap
 
-### Phase 1: Backend API ✅
+### Phase 1: Backend API 
 - [x] User authentication
 - [x] Health profile management
 - [x] AI integration (Gemini)
 - [x] Symptom checker
 - [x] API documentation
 
-### Phase 2: Frontend Development 🔄
+### Phase 2: Frontend Development 
 - [ ] React.js dashboard
 - [ ] User interface design
 - [ ] Health data visualization
 - [ ] Responsive design
 
-### Phase 3: Advanced Features 📋
+### Phase 3: Advanced Features 
 - [ ] File upload (medical reports)
 - [ ] Real-time notifications
 - [ ] Doctor consultation booking
 - [ ] Wearable device integration
 - [ ] Mobile app (React Native)
 
-### Phase 4: Production & Scaling 📋
+### Phase 4: Production & Scaling 
 - [ ] Docker containerization
 - [ ] Cloud deployment (AWS/Azure)
 - [ ] CI/CD pipeline
@@ -260,21 +260,21 @@ Authorization: Bearer <jwt_token>
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 👨‍💻 Author
+## Author
 
 **Shashank Pandey** - [@Shanky0007](https://github.com/Shanky0007)
 
-## 📧 Contact
+## Contact
 
 - Email: sp777216@gmail.com
 - LinkedIn: (www.linkedin.com/in/shashank-pandey-29473228b)
 - Project Link: (https://github.com/Shanky0007/Doc-Wok)
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 Doc-Wok is designed for informational purposes only and should not replace professional medical advice, diagnosis, or treatment. Always seek the advice of qualified healthcare providers with questions about medical conditions.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Google Gemini AI](https://ai.google.dev/) for powerful AI capabilities
 - [MongoDB](https://www.mongodb.com/) for database solutions
